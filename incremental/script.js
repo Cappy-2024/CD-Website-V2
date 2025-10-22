@@ -16,9 +16,9 @@ const leafValueDisplay = document.getElementById("leafValue");
 
 // Leaf types with individual values
 const leafTypes = [
-  { src: "assets/leaf1.png", value: 1 },
-  { src: "assets/leaf2.png", value: 3 },
-  { src: "assets/leaf3.png", value: 10 },
+  { src: "incremental/assets/leaf1.png", value: 1 },
+  { src: "incremental/assets/leaf2.png", value: 3 },
+  { src: "incremental/assets/leaf3.png", value: 10 },
 ];
 
 // ========== Save & Load ==========
@@ -152,6 +152,7 @@ document.getElementById("upgradePassive").addEventListener("click", () => {
 });
 
 updateUI();
+
 
 
 
